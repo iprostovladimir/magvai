@@ -96,22 +96,15 @@
       fill: none;
       stroke: var(--whtr);
 
-      @media (min-width: $tablet) {
-        animation: animlogo 1s linear both, animlogo2 0.5s ease-in-out 0.9s both;
-        transition: all 0.5s ease 0s;
-      }
-      @media (max-width: $tablet) {
-        fill: var(--whtr);
-      }
+      animation: animlogo 1s linear both, animlogo2 0.5s ease-in-out 0.9s both;
+      transition: all 0.5s ease 0s;
     }
 
     .svg--block {
       stroke-linejoin: round;
       fill: none;
-      @media (min-width: $tablet) {
-        animation: animblock 1s linear both;
-        transition: all 0.5s ease 0s;
-      }
+      animation: animblock 1s linear both;
+      transition: all 0.5s ease 0s;
     }
   }
 }

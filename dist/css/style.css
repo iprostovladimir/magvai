@@ -678,27 +678,14 @@ body.popup-show::after {
   stroke-linejoin: round;
   fill: none;
   stroke: var(--whtr);
-}
-@media (min-width: 61.99875em) {
-  .loaded .header .svg--item {
-    animation: animlogo 1s linear both, animlogo2 0.5s ease-in-out 0.9s both;
-    transition: all 0.5s ease 0s;
-  }
-}
-@media (max-width: 61.99875em) {
-  .loaded .header .svg--item {
-    fill: var(--whtr);
-  }
+  animation: animlogo 1s linear both, animlogo2 0.5s ease-in-out 0.9s both;
+  transition: all 0.5s ease 0s;
 }
 .loaded .header .svg--block {
   stroke-linejoin: round;
   fill: none;
-}
-@media (min-width: 61.99875em) {
-  .loaded .header .svg--block {
-    animation: animblock 1s linear both;
-    transition: all 0.5s ease 0s;
-  }
+  animation: animblock 1s linear both;
+  transition: all 0.5s ease 0s;
 }
 
 .logoIcon01 {
