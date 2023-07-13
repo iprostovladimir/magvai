@@ -1,0 +1,48 @@
+<div id="popup" style="opacity: 0" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close"
+				style="--iconClose: url(../img/popup/02.svg)"></button>
+			<div class="popup__body">
+				<div class="popup__img">
+					<img src="./img/popup/01.png" alt="">
+				</div>
+				<div class="popup__info">
+					<div class="popup__title titleBold ">Оставьте заявку</div>
+					<div class="popup__text">
+						<p>Оставьте заявку и наш менеджер свяжется с вами <br>
+							в течение 10 -15 минут</p>
+					</div>
+					<form action="#" method="GET" class="form">
+						<div class="form__item">
+							<label class="form__label" for="input_1">Ваше имя*</label>
+							<input autocomplete="off" id="input_1" data-validate data-required="text" type="text"
+								name="form[]" data-error="Ошибка" class="form__input input">
+						</div>
+						<div class="form__item">
+							<label class="form__label" for="input_2">E-mail*</label>
+							<input autocomplete="off" id="input_2" data-validate data-required="email" type="email"
+								name="form[]" data-error="Ошибка" class="form__input input">
+						</div>
+						<div class="form__item">
+							<label class="form__label" for="input_3">Телефон</label>
+							<input autocomplete="off" id="input_3" data-validate data-required="tel" type="tel"
+								name="form[]" data-error="Ошибка" class="form__input input">
+						</div>
+						<div class="form__item">
+							<label class="form__label" for="input_4">Ваш вопрос*</label>
+							<textarea class="form__textarea input" id="input_4"></textarea>
+						</div>
+						<div class="form__send">
+							<button type="text" class="btn--orange button">ОСТАВИТЬ ЗАЯВКУ</button>
+							<div class="form__agreement">
+								Нажимая на кнопку “Оставить заявку” вы <br> соглашаетесь
+								<a href="javascript:void(0);">с “Пользовательским соглашением”</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

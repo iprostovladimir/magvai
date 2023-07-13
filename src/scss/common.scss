@@ -1,0 +1,241 @@
+// Заголовки, общие БЄМ блоки и проче...
+//========================================================================================================================================================
+
+:root {
+  --mainBg: #171717;
+  --mainBgPopup: #17171760;
+  --darkBg: #131313;
+  --greyText: #808080;
+  --whtr: #fff;
+  --whtrPopup: #dfdcd8;
+  --grey: #666;
+  --greyLine: #2b2b2b;
+  --fontWeightBold: 700;
+  --backgroundOrange: #c2ab81;
+  --MulishBold: "MulishBold";
+  --MulishLight: "Mulish";
+  --red: #ca4b44;
+}
+
+.btn--orange {
+  color: var(--whtr);
+  text-align: right;
+  font-size: rem(12);
+  font-weight: var(--fontWeightBold);
+  padding: rem(24) rem(78);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  outline: none;
+  @media (min-width: em(769)) {
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: calc(100% + rem(6));
+      height: 100%;
+      width: rem(3);
+      background: var(--whtr);
+      transform: skew(-15deg);
+      transition: all 0.3s ease 0s;
+    }
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transform: skew(-15deg);
+    background: var(--backgroundOrange);
+    width: 100%;
+    height: 100%;
+    transition: background 0.3s ease 0s;
+    border: rem(3) solid var(--backgroundOrange);
+  }
+
+  &:hover {
+    &::after {
+      left: calc(100% - rem(1));
+    }
+  }
+}
+
+//========================================================================================================================================================
+
+.titleBold {
+  color: #fff;
+  line-height: normal;
+  text-transform: uppercase;
+  font-weight: var(--fontWeightBold);
+  @include adaptiveValue("font-size", 42, 18);
+}
+
+//========================================================================================================================================================
+
+.loaded {
+  @media (min-width: $tablet) {
+    .main__swiper {
+      .swiper-slide-active {
+        z-index: 1;
+        .main__title,
+        .main__text,
+        .btn--orange {
+          transform: translate(0, 0);
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .header {
+    .svg--item {
+      stroke-linejoin: round;
+      fill: none;
+      stroke: var(--whtr);
+
+      @media (min-width: $tablet) {
+        animation: animlogo 1s linear both, animlogo2 0.5s ease-in-out 0.9s both;
+        transition: all 0.5s ease 0s;
+      }
+      @media (max-width: $tablet) {
+        fill: var(--whtr);
+      }
+    }
+
+    .svg--block {
+      stroke-linejoin: round;
+      fill: none;
+      @media (min-width: $tablet) {
+        animation: animblock 1s linear both;
+        transition: all 0.5s ease 0s;
+      }
+    }
+  }
+}
+
+//========================================================================================================================================================
+
+/// Анимация
+
+//========================================================================================================================================================
+
+.logoIcon01 {
+  stroke-dasharray: 31;
+  stroke-dashoffset: 31;
+}
+
+.logoIcon02 {
+  stroke-dasharray: 37;
+  stroke-dashoffset: 37;
+}
+
+.logoIcon03 {
+  stroke-dasharray: 46;
+  stroke-dashoffset: 46;
+}
+
+.line01 {
+  stroke-dasharray: 101;
+  stroke-dashoffset: 101;
+}
+
+.line02 {
+  stroke-dasharray: 73;
+  stroke-dashoffset: 73;
+}
+
+.line03 {
+  stroke-dasharray: 99;
+  stroke-dashoffset: 99;
+}
+
+.line04 {
+  stroke-dasharray: 89;
+  stroke-dashoffset: 89;
+}
+
+.line05 {
+  stroke-dasharray: 73;
+  stroke-dashoffset: 73;
+}
+.line06 {
+  stroke-dasharray: 40;
+  stroke-dashoffset: 40;
+}
+
+.line07 {
+  stroke-dasharray: 16;
+  stroke-dashoffset: 16;
+}
+
+.line08 {
+  stroke-dasharray: 41;
+  stroke-dashoffset: 41;
+}
+
+.line09 {
+  stroke-dasharray: 29;
+  stroke-dashoffset: 29;
+}
+
+.line10 {
+  stroke-dasharray: 10;
+  stroke-dashoffset: 10;
+}
+
+.line11 {
+  stroke-dasharray: 177;
+  stroke-dashoffset: 177;
+}
+@keyframes animlogo {
+  0% {
+    fill: none;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes animlogo2 {
+  0% {
+    fill: none;
+  }
+  50% {
+    fill: transparent;
+  }
+  100% {
+    fill: var(--whtr);
+  }
+}
+
+@keyframes animblock {
+  0% {
+    stroke-dashoffset: 31;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.header__menu {
+  svg {
+    &:hover {
+      .logoIcon01 {
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+      }
+      .logoIcon02 {
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+      }
+      .logoIcon03 {
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+      }
+    }
+  }
+}
+
+//========================================================================================================================================================

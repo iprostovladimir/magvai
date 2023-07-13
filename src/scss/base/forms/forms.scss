@@ -1,0 +1,106 @@
+//<FORM>
+// Снипет (HTML):
+.form {
+  // .form__item
+
+  &__item {
+    position: relative;
+    margin-bottom: rem(20);
+    &._form-focus {
+      .form__label {
+        top: rem(1);
+        transform: translate(rem(0), 0%);
+      }
+    }
+  }
+
+  // .form__label
+
+  &__label {
+    font-size: rem(12);
+    font-weight: var(--fontWeightBold);
+    text-transform: uppercase;
+    color: var(--greyText);
+    position: absolute;
+    top: rem(20);
+    left: rem(15);
+    transition: all 0.5s ease 0s;
+    width: calc(100% - rem(70));
+    overflow: hidden;
+    padding: rem(10) rem(0) rem(3);
+    background: var(--darkBg);
+    z-index: 1;
+
+    @media (min-width: $mobile) {
+      left: rem(35);
+    }
+  }
+
+  // .form__input
+
+  &__input {
+  }
+
+  // .form__send
+
+  &__send {
+    @media (min-width: $tablet) {
+      display: flex;
+      gap: rem(35);
+    }
+
+    a {
+      text-decoration-line: underline;
+      transition: all 0.5s ease 0s;
+
+      @media (min-width: $tablet) {
+        display: block;
+      }
+      &:hover {
+        text-decoration-line: none;
+      }
+    }
+
+    .btn--orange {
+      @media (max-width: $tablet) {
+        width: 100%;
+      }
+    }
+  }
+
+  // .form__agreement
+
+  &__agreement {
+    color: var(--greyText);
+    line-height: 150%;
+
+    @media (max-width: $tablet) {
+      margin-top: rem(20);
+      br {
+        display: none;
+      }
+    }
+  }
+
+  // .form__error
+
+  &__error {
+    font-size: rem(12);
+    color: var(--red);
+    transition: all 0.5s ease 0s;
+    position: absolute;
+    bottom: rem(-15);
+    left: rem(35);
+  }
+
+  // .form__textarea
+
+  &__textarea {
+  }
+}
+
+//</FORM>
+
+// <INPUTS>
+// Снипет (HTML): inp
+@import "input";

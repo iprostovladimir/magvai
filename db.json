@@ -1,0 +1,164 @@
+{
+	"posts": [
+		{
+			"id": 1,
+			"image": "img/mainSlider/01.png",
+			"name": "bridge 1",
+			"info": "How to increase your productivity with a Music",
+			"about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit obcaecati maiores commodi id velit dolorum dignissimos vel est nemo debitis reprehenderit sequi asperiores labore veniam dicta expedita, ad libero vitae?",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 2,
+			"image": "img/mainSlider/02.png",
+			"name": "bridge 2",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 3,
+			"image": "img/mainSlider/03.png",
+			"name": "bridge 3",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 4,
+			"image": "img/mainSlider/01.png",
+			"name": "bridge 4",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 5,
+			"image": "img/mainSlider/03.png",
+			"name": "bridge 5",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 6,
+			"image": "img/mainSlider/02.png",
+			"name": "bridge 6",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 7,
+			"image": "img/mainSlider/01.png",
+			"name": "bridge 7",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 8,
+			"image": "img/mainSlider/03.png",
+			"name": "bridge 8",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 9,
+			"image": "img/mainSlider/02.png",
+			"name": "bridge 9",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 10,
+			"image": "img/mainSlider/03.png",
+			"name": "bridge 10",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 11,
+			"image": "img/mainSlider/02.png",
+			"name": "bridge 11",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 12,
+			"image": "img/mainSlider/03.png",
+			"name": "bridge 12",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 13,
+			"image": "img/mainSlider/01.png",
+			"name": "bridge 13",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 14,
+			"image": "img/mainSlider/03.png",
+			"name": "bridge 14",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 15,
+			"image": "img/mainSlider/02.png",
+			"name": "bridge 15",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 16,
+			"image": "img/mainSlider/02.png",
+			"name": "bridge 16",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 17,
+			"image": "img/mainSlider/02.png",
+			"name": "bridge 17",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 18,
+			"image": "img/mainSlider/02.png",
+			"name": "bridge 18",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 19,
+			"image": "img/mainSlider/02.png",
+			"name": "bridge 19",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		},
+		{
+			"id": 20,
+			"image": "img/mainSlider/03.png",
+			"name": "bridge 20",
+			"info": "How to increase your productivity with a Music",
+			"about": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…",
+			"data": "Posted by <strong>Eugenia</strong>, on July 24, 2019"
+		}
+	]
+}
