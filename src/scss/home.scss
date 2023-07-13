@@ -13,25 +13,6 @@
     @media (max-width: $mobile) {
       padding-top: rem(77);
     }
-    &::before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: rem(390);
-      background: linear-gradient(0deg, #131313 0%, rgba(19, 19, 19, 0) 100%);
-      z-index: 2;
-      pointer-events: none;
-
-      @media (max-width: $tablet) {
-        height: rem(200);
-      }
-
-      @media (max-width: $mobileSmall) {
-        height: rem(150);
-      }
-    }
   }
 
   // .main__pagination
@@ -87,6 +68,27 @@
     background-size: cover;
 
     cursor: pointer;
+
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: rem(390);
+      background: linear-gradient(0deg, #131313 0%, rgba(19, 19, 19, 0) 100%);
+      z-index: 2;
+      pointer-events: none;
+
+      @media (max-width: $tablet) {
+        height: rem(200);
+      }
+
+      @media (max-width: $mobileSmall) {
+        height: rem(150);
+      }
+    }
 
     @media (min-width: $tablet) {
       min-height: calc(100vh - rem(116));
