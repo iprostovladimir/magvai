@@ -1270,25 +1270,13 @@ body.popup-show::after {
 .main__slide {
   background: var(--bg) bottom left no-repeat;
   background-size: cover;
-  border-top-left-radius: 3.125rem;
-  border-top-right-radius: 3.125rem;
   cursor: pointer;
 }
 @media (min-width: 61.99875em) {
   .main__slide {
     min-height: calc(100vh - 7.25rem);
-  }
-}
-@media (max-width: 61.99875em) {
-  .main__slide {
-    min-height: calc(100vh - 6.875rem);
-  }
-}
-@media (max-width: 47.99875em) {
-  .main__slide {
-    min-height: calc(100vh - 4.8125rem);
-    border-top-left-radius: 1.25rem;
-    border-top-right-radius: 1.25rem;
+    border-top-left-radius: 3.125rem;
+    border-top-right-radius: 3.125rem;
   }
 }
 @media (min-width: 29.99875em) {
@@ -1315,28 +1303,24 @@ body.popup-show::after {
 }
 @media (max-width: 61.99875em) {
   .main__container {
-    min-height: calc(100vh - 6.875rem);
-  }
-}
-@media (max-width: 47.99875em) {
-  .main__container {
-    min-height: calc(100vh - 4.8125rem);
+    height: 31.25rem;
   }
 }
 .main__content {
   max-width: 42.875rem;
+  padding: 3.125rem 0rem;
 }
-@media (min-width: 110em) {
+@media (min-width: 61.99875em) and (min-width: 110em) {
   .main__content {
     padding-bottom: 8.75rem;
   }
 }
-@media (min-width: 20em) and (max-width: 110em) {
+@media (min-width: 61.99875em) and (min-width: 20em) and (max-width: 110em) {
   .main__content {
     padding-bottom: clamp( 3.75rem , 2.6388888889rem  +  5.5555555556vw , 8.75rem );
   }
 }
-@media (max-width: 20em) {
+@media (min-width: 61.99875em) and (max-width: 20em) {
   .main__content {
     padding-bottom: 3.75rem;
   }

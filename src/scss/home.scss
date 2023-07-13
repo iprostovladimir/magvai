@@ -85,21 +85,13 @@
   &__slide {
     background: var(--bg) bottom left no-repeat;
     background-size: cover;
-    border-top-left-radius: rem(50);
-    border-top-right-radius: rem(50);
+
     cursor: pointer;
 
     @media (min-width: $tablet) {
       min-height: calc(100vh - rem(116));
-    }
-    @media (max-width: $tablet) {
-      min-height: calc(100vh - rem(110));
-    }
-
-    @media (max-width: $mobile) {
-      min-height: calc(100vh - rem(77));
-      border-top-left-radius: rem(20);
-      border-top-right-radius: rem(20);
+      border-top-left-radius: rem(50);
+      border-top-right-radius: rem(50);
     }
 
     .btn--orange {
@@ -124,12 +116,9 @@
     @media (min-width: $tablet) {
       min-height: calc(100vh - rem(116));
     }
-    @media (max-width: $tablet) {
-      min-height: calc(100vh - rem(110));
-    }
 
-    @media (max-width: $mobile) {
-      min-height: calc(100vh - rem(77));
+    @media (max-width: $tablet) {
+      height: rem(500);
     }
   }
 
@@ -137,7 +126,10 @@
 
   &__content {
     max-width: rem(686);
-    @include adaptiveValue("padding-bottom", 140, 60);
+    padding: rem(50) rem(0);
+    @media (min-width: $tablet) {
+      @include adaptiveValue("padding-bottom", 140, 60);
+    }
   }
 
   // .main__title
